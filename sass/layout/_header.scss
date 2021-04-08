@@ -1,0 +1,16 @@
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header,
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}

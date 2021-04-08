@@ -1,0 +1,82 @@
+.clients .container {
+  margin-bottom: 94px;
+}
+
+.clients__title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  padding-top: 94px;
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  @extend %flex-spacebetween;
+  /*display: flex;
+  justify-content: space-between;*/
+}
+
+.clients-list__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--icon-pasive-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 170px;
+  height: 90px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    border: 1px solid var(--accent-text-color);
+  }
+}
+
+.clients-list__logo1 {
+  width: 45px;
+  height: 50px;
+  @extend %fill-transition;
+}
+
+.clients-list__logo2 {
+  width: 40px;
+  height: 52px;
+  @extend %fill-transition;
+}
+
+.clients-list__logo3 {
+  width: 41px;
+  height: 43px;
+  @extend %fill-transition;
+}
+
+.clients-list__logo4 {
+  width: 80px;
+  height: 42px;
+  @extend %fill-transition;
+}
+
+.clients-list__logo5 {
+  width: 59px;
+  height: 47px;
+  @extend %fill-transition;
+}
+
+.clients-list__logo6 {
+  width: 88px;
+  height: 45px;
+  @extend %fill-transition;
+}
+
+.clients-list__logo1:hover,
+.clients-list__logo2:hover,
+.clients-list__logo3:hover,
+.clients-list__logo4:hover,
+.clients-list__logo5:hover,
+.clients-list__logo6:hover {
+  fill: var(--accent-text-color);
+  cursor: pointer;
+}
