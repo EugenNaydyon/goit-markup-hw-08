@@ -1,3 +1,24 @@
+.logo {
+  //   font-family: Raleway;
+  //   font-style: normal;
+  //   font-weight: bold;
+  //   font-size: 24px;
+  //   line-height: 1.16;
+  //   letter-spacing: 0.03em;
+  @extend %logo-styles;
+  color: #2196f3;
+}
+
+.logo__web {
+  //   font-family: Raleway;
+  //   font-style: normal;
+  //   font-weight: bold;
+  //   font-size: 24px;
+  //   line-height: 1.16;
+  //   letter-spacing: 0.03em;
+  @extend %logo-styles;
+  color: #212121;
+}
 // .logo {
 //   font-family: Raleway;
 //   font-style: normal;
