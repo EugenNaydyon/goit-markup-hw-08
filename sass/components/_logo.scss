@@ -7,6 +7,20 @@
   @extend %logo-styles;
   color: #212121;
 }
+
+.logo-footer {
+  @extend %logo-styles;
+  line-height: 1.2;
+  color: var(--main-background-color);
+  text-decoration: none;
+  // display: block;
+  // justify-content: center;
+}
+
+.logo-footer__web {
+  color: var(--accent-text-color);
+}
+
 // .logo {
 //   font-family: Raleway;
 //   font-style: normal;
