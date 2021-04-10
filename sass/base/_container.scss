@@ -18,6 +18,13 @@
   .our-team & {
     padding: 0;
   }
+
+  .clients & {
+    padding: 0;
+    display: flex;
+    // justify-content: space-around;
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (min-width: 480px) {
