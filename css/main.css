@@ -3,7 +3,7 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-links, .signing-form__text, .our-team__list, .clients-list, .portfolio-box {
+.social-links, .signing-form__text, .clients-list, .portfolio-box {
   display: flex;
   justify-content: space-between;
 }
@@ -91,6 +91,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.features .container {
+  padding: 0;
+}
+
+.our-team .container {
+  padding: 0;
 }
 
 @media screen and (min-width: 480px) {
@@ -474,62 +482,61 @@ body {
   border: none;
 }
 
-.our-team {
+.features-list__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 120px;
   background-color: var(--button-background-color);
-  padding-bottom: 94px;
+  margin-bottom: 30px;
 }
 
-.our-team__title {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-  padding-top: 94px;
-}
-
-.our-team__person .our-team__name {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
-.our-team__list .our-team__person {
-  text-align: center;
-}
-
-.our-team__person .our-team__career {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.8;
-  color: var(--title-text-color);
-}
-
-.our-team__list {
-  width: 1170px;
+.features-list {
+  width: 450px;
   margin: 0 auto;
 }
 
-.our-team__list .social-links__item {
-  background: #ffffff;
+.features-details__title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.features-details__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  margin-bottom: 30px;
+}
+
+.features-list__icon-group,
+.features-list__icon-clock,
+.features-list__icon-diagram,
+.features-list__icon-astronaut {
+  width: 70px;
+  height: 70px;
+}
+
+.our-team {
+  background-color: var(--button-background-color);
+}
+
+.our-team__list {
+  width: 450px;
+  margin: 0 auto;
 }
 
 .our-team__person-box {
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
-
-.our-team__social-links {
-  margin-bottom: 30px;
-  margin-top: 16px;
 }
 
 .clients .container {

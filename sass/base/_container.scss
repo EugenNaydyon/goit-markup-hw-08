@@ -4,10 +4,19 @@
   padding-right: 15px;
   // margin: 0 auto;
   outline: 1px solid teal;
+
   .header & {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .features & {
+    padding: 0;
+  }
+
+  .our-team & {
+    padding: 0;
   }
 }
 
