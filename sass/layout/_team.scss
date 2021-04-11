@@ -15,6 +15,17 @@
   border-radius: 0px 0px 4px 4px;
 }
 
+// TABLET
+
+@media screen and (min-width: 768px) {
+  .our-team__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 354px;
+    margin: 0;
+    margin-right: 0;
+  }
+}
 // .our-team {
 //   background-color: var(--button-background-color);
 //   padding-bottom: 94px;
