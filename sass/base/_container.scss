@@ -54,6 +54,11 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 738px;
+
+    .our-team & {
+      display: flex;
+      flex-wrap: wrap;
+    }
   }
 }
 
@@ -62,9 +67,3 @@
     width: 1170px;
   }
 }
-// .container {
-//   width: 1200px;
-//   margin: 0 auto;
-//   padding: 0 15px;
-//   box-sizing: border-box;
-// }

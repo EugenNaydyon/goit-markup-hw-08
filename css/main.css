@@ -135,6 +135,10 @@ body {
   .container {
     width: 738px;
   }
+  .our-team .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -580,8 +584,6 @@ body {
     margin-bottom: 30px;
   }
   .features-list {
-    display: flex;
-    flex-wrap: wrap;
     width: 354px;
     margin: 0;
   }
@@ -610,12 +612,18 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .our-team__person-box {
+    margin-left: 5px;
+    margin-bottom: 30px;
+  }
   .our-team__list {
     display: flex;
-    flex-wrap: wrap;
     width: 354px;
     margin: 0;
     margin-right: 0;
+  }
+  .our-team__title {
+    width: 760px;
   }
 }
 
