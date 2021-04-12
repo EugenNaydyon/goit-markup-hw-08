@@ -2,21 +2,16 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
 .features-list__icons {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 450px;
   height: 120px;
   background-color: var(--button-background-color);
   margin-bottom: 30px;
-  //   margin-right: 30px;
 }
 
 .features-list {
-  //   display: flex;
-  width: 450px;
   margin: 0 auto;
 }
 
@@ -36,7 +31,6 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  // margin-bottom: 30px;
 }
 
 .features-list__icon-group,
@@ -45,10 +39,6 @@
 .features-list__icon-astronaut {
   width: 70px;
   height: 70px;
-}
-
-.features-list__item {
-  margin-bottom: 30px;
 }
 
 .features-list__item:not(:last-child) {
@@ -62,30 +52,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 354px;
     height: 120px;
     background-color: var(--button-background-color);
     margin-bottom: 30px;
   }
-
   .features-list {
     display: flex;
     flex-wrap: wrap;
     margin-left: -15px;
     margin-right: -15px;
   }
-
   .features-list__item {
-    flex-basis: calc((100%-60px) / 2);
+    flex-basis: calc((100% - 60px) / 2);
     margin-left: 15px;
     margin-right: 15px;
-    max-width: 100%;
-
     &:nth-last-child(-n + 2) {
       margin-bottom: 0px;
     }
   }
-
   .features-list__icon-group,
   .features-list__icon-clock,
   .features-list__icon-diagram,
@@ -94,18 +78,131 @@
     height: 70px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .features {
     padding-top: 94px;
     padding-bottom: 47px;
   }
-
   .features-list__item {
     width: 100%;
-    flex-basis: ((calc100% - 120px) / 4);
+    flex-basis: calc((100% - 120px) / 4);
+
+    &:not(:last-child) {
+      margin-bottom: 0px;
+    }
   }
 }
+
+// .features {
+//   padding-top: 60px;
+//   padding-bottom: 60px;
+// }
+
+// .features-list__icons {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   // width: 450px;
+//   height: 120px;
+//   background-color: var(--button-background-color);
+//   margin-bottom: 30px;
+//   //   margin-right: 30px;
+// }
+
+// .features-list {
+//   //   display: flex;
+//   // width: 450px;
+//   margin: 0 auto;
+// }
+
+// .features-details__title {
+//   font-weight: bold;
+//   font-size: 14px;
+//   line-height: 1.14;
+//   text-align: center;
+//   letter-spacing: 0.03em;
+//   text-transform: uppercase;
+//   margin-bottom: 10px;
+// }
+
+// .features-details__text {
+//   font-weight: normal;
+//   font-size: 14px;
+//   line-height: 1.71;
+//   letter-spacing: 0.03em;
+//   color: var(--title-text-color);
+//   // margin-bottom: 30px;
+// }
+
+// .features-list__icon-group,
+// .features-list__icon-clock,
+// .features-list__icon-diagram,
+// .features-list__icon-astronaut {
+//   width: 70px;
+//   height: 70px;
+// }
+
+// .features-list__item {
+//   margin-bottom: 30px;
+// }
+
+// .features-list__item:not(:last-child) {
+//   margin-bottom: 30px;
+// }
+
+// // TABLET
+
+// @media screen and (min-width: 768px) {
+//   .features-list__icons {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     // width: 354px;
+//     height: 120px;
+//     background-color: var(--button-background-color);
+//     margin-bottom: 30px;
+//   }
+
+//   .features-list {
+//     display: flex;
+//     flex-wrap: wrap;
+//     margin-left: -15px;
+//     margin-right: -15px;
+//   }
+
+//   .features-list__item {
+//     flex-basis: calc((100%-60px) / 2);
+//     margin-left: 15px;
+//     margin-right: 15px;
+//     // max-width: 100%;
+
+//     &:nth-last-child(-n + 2) {
+//       margin-bottom: 0px;
+//     }
+//   }
+
+//   .features-list__icon-group,
+//   .features-list__icon-clock,
+//   .features-list__icon-diagram,
+//   .features-list__icon-astronaut {
+//     width: 70px;
+//     height: 70px;
+//   }
+// }
+
+// @media screen and (min-width: 1200px) {
+//   .features {
+//     padding-top: 94px;
+//     padding-bottom: 47px;
+//   }
+
+//   .features-list__item {
+//     width: 100%;
+//     flex-basis: calc((100% - 120px) / 4);
+//   }
+// }
+
+// ==============================
 
 // .features .container {
 //   margin-top: 94px;
