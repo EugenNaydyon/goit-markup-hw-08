@@ -24,6 +24,12 @@
   font-style: normal;
 }
 
+.address-contacts__office, .address-contacts__link, .social-links-box__title, .signing-box__title {
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
 :root {
   --primery-text-color: #212121;
   --title-text-color: #757575;
@@ -133,7 +139,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 738px;
+    width: 768px;
   }
   .our-team .container {
     display: flex;
@@ -238,6 +244,46 @@ body {
 
 .contact-menu {
   display: none;
+}
+
+.signing-form {
+  width: 100%;
+}
+
+.signing-form__email {
+  width: 450px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: var(--section-background-color);
+  margin-top: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--main-background-color);
+}
+
+.signing-form__email::placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.signing-form__email:focus {
+  outline: none;
+  border-color: #2196f3;
 }
 
 .header {
@@ -524,7 +570,7 @@ body {
   .our-team__list {
     display: flex;
     flex-wrap: wrap;
-    width: 354px;
+    width: 100%;
     margin-top: -30px;
     margin-left: -30px;
   }
@@ -622,6 +668,13 @@ body {
 .logo-footer {
   display: block;
   text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.social-links-box {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .address-contacts,
@@ -631,6 +684,31 @@ body {
 
 .signing-box {
   text-align: center;
+}
+
+.address-contacts__office {
+  line-height: 1.7;
+  color: var(--main-background-color);
+}
+
+.address-contacts__link {
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 8px;
+}
+
+.social-links-box__title {
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.14;
+  color: var(--main-background-color);
+}
+
+.signing-box__title {
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.14;
+  color: var(--main-background-color);
 }
 
 .portfolio-btns {
