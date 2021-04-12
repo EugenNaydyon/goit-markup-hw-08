@@ -452,7 +452,7 @@ body {
   position: absolute;
   width: 24px;
   height: 24px;
-  background: #ffffff;
+  background: var(--main-background-color);
   cursor: pointer;
 }
 
@@ -465,7 +465,7 @@ body {
   right: -425px;
   width: 40px;
   height: 40px;
-  background: #ffffff;
+  background: var(--main-background-color);
   border: none;
   padding: 0;
   cursor: pointer;
