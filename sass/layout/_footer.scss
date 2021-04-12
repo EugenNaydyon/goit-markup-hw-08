@@ -2,9 +2,24 @@
   background-color: var(--section-background-color);
 }
 
-.contacts-box {
-  align-items: center;
+// .contacts-box {
+//   align-items: center;
+// }
+
+.logo-footer {
+  display: block;
+  text-align: center;
 }
+
+.address-contacts,
+.social-links-box {
+  text-align: center;
+}
+
+.signing-box {
+  text-align: center;
+}
+
 // .footer {
 //   background-color: var(--section-background-color);
 // }
