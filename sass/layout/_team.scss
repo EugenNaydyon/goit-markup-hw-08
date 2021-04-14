@@ -5,7 +5,7 @@
 
 .our-team__list {
   width: 450px;
-  margin: 0 auto;
+  // margin: 0 auto;
   padding-bottom: 30px;
 }
 
@@ -54,26 +54,35 @@
   color: var(--title-text-color);
 }
 
-// TABLET
+// ==============TABLET========================
 
 @media screen and (min-width: 768px) {
   .our-team__list {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: -30px;
-    margin-left: -30px;
+    // margin-top: -30px;
+    // margin-left: -30px;
   }
 
   .our-team__person-box {
-    // display: block;
-    margin-top: 30px;
-    margin-left: 30px;
+    width: 354px;
+    display: block;
+    // margin-top: 30px;
+    // margin-left: 30px;
     flex-basis: calc((100% - 60px) / 2);
   }
 
+  .our-team__person-box:nth-child(odd) {
+    margin-right: 30px;
+  }
+
+  .our-team__person-box:last-child {
+    height: 100%;
+  }
+
   .our-team__title {
-    width: 760px;
+    width: 738px;
   }
 }
 // .our-team {
