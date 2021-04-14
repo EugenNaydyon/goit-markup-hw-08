@@ -81,6 +81,83 @@
   cursor: pointer;
 }
 
+// ==========TABLET===========
+
+@media screen and (min-width: 768) {
+  .clients-list__box {
+    width: 226px;
+    height: 90px;
+  }
+}
+
+.clients-list__item:nth-child(odd) {
+  margin-right: 0;
+}
+
+.clients__title {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: -30px;
+}
+
+.clients-list__logo1 {
+  width: 45px;
+  height: 50px;
+  @extend %fill-transition;
+}
+
+.clients-list__logo2 {
+  width: 40px;
+  height: 52px;
+  @extend %fill-transition;
+}
+
+.clients-list__logo3 {
+  width: 41px;
+  height: 43px;
+  @extend %fill-transition;
+}
+
+.clients-list__logo4 {
+  width: 80px;
+  height: 42px;
+  @extend %fill-transition;
+}
+
+.clients-list__logo5 {
+  width: 59px;
+  height: 47px;
+  @extend %fill-transition;
+}
+
+.clients-list__logo6 {
+  width: 88px;
+  height: 45px;
+  @extend %fill-transition;
+}
+
+.clients-list__logo1:hover,
+.clients-list__logo2:hover,
+.clients-list__logo3:hover,
+.clients-list__logo4:hover,
+.clients-list__logo5:hover,
+.clients-list__logo6:hover {
+  fill: var(--accent-text-color);
+  cursor: pointer;
+}
+
+// ===============================================
 // .clients .container {
 //   margin-bottom: 94px;
 // }
