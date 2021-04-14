@@ -149,6 +149,12 @@ body {
     display: flex;
     flex-wrap: wrap;
   }
+  .footer .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1127,6 +1133,70 @@ body {
   text-transform: uppercase;
   line-height: 1.14;
   color: var(--main-background-color);
+}
+
+@media screen and (min-width: 768px) {
+  .logo-footer {
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+  .social-links-box {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 165px;
+  }
+  .address-contacts,
+  .social-links-box {
+    text-align: center;
+  }
+  .signing-box {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+  .address-contacts__office {
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.7;
+    color: var(--main-background-color);
+    text-decoration: none;
+  }
+  .address-contacts__link {
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 8px;
+    text-decoration: none;
+  }
+  .social-links-box__title {
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.14;
+    color: var(--main-background-color);
+  }
+  .signing-box__title {
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.14;
+    color: var(--main-background-color);
+  }
+  .contacts-box {
+    padding-left: 46px;
+  }
+  .address-contacts__item {
+    text-decoration: none;
+  }
 }
 
 @media screen and (min-width: 1200px) {
