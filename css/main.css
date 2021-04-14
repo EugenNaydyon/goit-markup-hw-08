@@ -246,6 +246,15 @@ body {
   margin-right: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .social-links:first-child {
+    padding-left: 89px;
+  }
+  .social-links:last-child {
+    padding-right: 89px;
+  }
+}
+
 .contact-menu {
   display: none;
 }

@@ -71,7 +71,33 @@
   margin-right: 10px;
 }
 
-// ===============================================
+// ================TABLET====================
+
+@media screen and (min-width: 768px) {
+  .social-links:first-child {
+    padding-left: 89px;
+  }
+
+  .social-links:last-child {
+    padding-right: 89px;
+  }
+}
+
+// .social-links {
+//   @extend %flex-spacebetween;
+//   margin-top: 16px;
+//   padding-bottom: 24px;
+
+//   &:first-child {
+//     padding-left: 122px;
+//   }
+
+//   &:last-child {
+//     padding-right: 122px;
+//   }
+// }
+
+// =====================================================
 
 // .social-links {
 //   @extend %flex-spacebetween;
