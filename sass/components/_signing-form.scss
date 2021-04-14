@@ -1,9 +1,9 @@
 .signing-form {
-  width: 100%;
+  // display: flex;
 }
 
 .signing-form__email {
-  width: 450px;
+  width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -13,7 +13,7 @@
   padding-top: 15px;
   padding-bottom: 15px;
   background: var(--section-background-color);
-  margin-top: 20px;
+  // margin-top: 20px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -52,7 +52,7 @@
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.06em;
-  margin-top: 20px;
+  // margin-top: 20px;
   margin-bottom: 60px;
 
   color: var(--main-background-color);
