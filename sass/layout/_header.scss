@@ -170,6 +170,8 @@
   transform: translateY(0) translateX(-50%);
 }
 
+// =====================TABLET===================
+
 @media screen and (min-width: 768px) {
   .burger-menu {
     display: none;
@@ -189,6 +191,28 @@
     display: block;
   }
 }
+
+// =====================DESCTOP===================
+
+@media screen and (min-width: 1200px) {
+  .header {
+    border-bottom: 1px solid #ececec;
+  }
+
+  .header,
+  .navigation {
+    display: flex;
+    align-items: center;
+  }
+
+  .header .container {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+
 // .header {
 //   border-bottom: 1px solid #ececec;
 // }

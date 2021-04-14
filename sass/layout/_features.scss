@@ -45,7 +45,7 @@
   margin-bottom: 30px;
 }
 
-// TABLET
+// ==============TABLET===============
 
 @media screen and (min-width: 768px) {
   .features-list__icons {
@@ -78,10 +78,13 @@
     height: 70px;
   }
 }
+
+// =================DESCTOP===============
+
 @media screen and (min-width: 1200px) {
   .features {
     padding-top: 94px;
-    padding-bottom: 47px;
+    padding-bottom: 0;
   }
   .features-list__item {
     width: 100%;
@@ -93,6 +96,7 @@
   }
 }
 
+// ================================================
 // .features .container {
 //   margin-top: 94px;
 //   box-sizing: border-box;
