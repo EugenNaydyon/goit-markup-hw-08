@@ -157,6 +157,18 @@
   cursor: pointer;
 }
 
+// ==============DESCTOP=====================
+
+@media screen and (min-width: 1200px) {
+  .clients-list {
+    margin-bottom: 0;
+    padding-bottom: 94px;
+  }
+
+  .clients-list__box {
+    width: 170px;
+  }
+}
 // ===============================================
 // .clients .container {
 //   margin-bottom: 94px;

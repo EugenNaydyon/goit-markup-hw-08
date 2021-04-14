@@ -52,6 +52,84 @@
   color: var(--main-background-color);
 }
 
+// ================DESCTOP=================
+@media screen and (min-width: 1200px) {
+  .footer {
+    background-color: var(--section-background-color);
+  }
+
+  .footer .container {
+    display: flex;
+    align-items: baseline;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .address-contacts {
+    font-style: normal;
+    display: block;
+  }
+
+  .address-contacts__item:not(:last-child) {
+    display: block;
+    margin-bottom: 9px;
+  }
+
+  .address-contacts__office {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--main-background-color);
+    text-decoration: none;
+  }
+
+  .address-contacts__link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--address-link-color);
+
+    &:hover,
+    &:focus {
+      color: var(--accent-text-color);
+      fill: var(--accent-text-color);
+    }
+  }
+
+  .social-links-box {
+    margin-left: 70px;
+  }
+
+  .social-links-box__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .signing-box {
+    margin-left: 93px;
+  }
+
+  .signing-box__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--main-background-color);
+    margin-bottom: 20px;
+  }
+}
+
+// ===============================
 // .footer {
 //   background-color: var(--section-background-color);
 // }
