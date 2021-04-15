@@ -1,6 +1,7 @@
 @media screen and (min-width: 768px) {
   .navigation {
     display: flex;
+    align-items: center;
   }
 
   .navigation-menu {
@@ -47,7 +48,10 @@
       margin-right: 50px;
     }
 
-    .navigation-menu .navigation-menu__link {
+    .navigation-menu__link {
+      font-family: Roboto;
+      font-style: normal;
+      letter-spacing: 0.02em;
       font-weight: 500;
       font-size: 14px;
       line-height: 1.14;

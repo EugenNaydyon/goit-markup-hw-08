@@ -6,7 +6,8 @@
 @media screen and (min-width: 768px) {
   .contact-menu {
     display: flex;
-    margin-left: auto;
+    justify-content: flex-start;
+    // margin-left: auto;
   }
 
   .contact-menu__tel {
@@ -18,17 +19,17 @@
   }
 
   .contact-menu__logo-envelope {
-    width: 16px;
-    height: 12px;
+    width: 14px;
+    height: 10px;
     color: var(--title-text-color);
     margin-left: auto;
   }
 
   .contact-menu__logo-smartphone {
     width: 10px;
-    height: 16px;
+    height: 14px;
     color: var(--title-text-color);
-    margin-left: 30px;
+    // margin-left: 30px;
   }
 
   .contact-menu .contact-menu__link {
